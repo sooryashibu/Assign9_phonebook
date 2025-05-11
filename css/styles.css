@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input, form button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Contact item style */
+#contactsList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+
+/* Contact name/phone section */
+.contact-info {
+  flex-grow: 1;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  gap: 6px;
+}
+
